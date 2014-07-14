@@ -95,3 +95,9 @@ img.bg {
 #wrapper {
   min-height: 100%;
 }
+
+.spacer {
+  margin-left: 20px;
+  position: absolute;
+  bottom: 20px;
+}
