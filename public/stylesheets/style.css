@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.redtron{
+    background-color:#ff3600;
+    color:white;
+    padding: 40px;
+    float: left;
+    width: 100%;
+}
+
+.blacktron{
+    background-color:#000000;
+    color:white;
+    padding: 40px;
+    float: left;
+    width: 100%;
+}
+
+.yellowtron{
+    height: 100%;
+    background-color:#eec015;
+}
+
+img.bg {
+  background-color:#000000;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+@-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+@-ms-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+@-o-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+#animatearea {
+  width: 100%;
+  height: 100%;
+
+  background-image: url("/images/background.jpg");
+  background-position: 0px 0px;
+
+  animation: animatedBackground 60s linear infinite;
+  -moz-animation: animatedBackground 60s linear infinite;
+  -webkit-animation: animatedBackground 60s linear infinite;
+  -ms-animation: animatedBackground 60s linear infinite;
+  -o-animation: animatedBackground 60s linear infinite;
+}
+
+#wrapper {
+  min-height: 100%;
+}
